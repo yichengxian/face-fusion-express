@@ -1,0 +1,21 @@
+{
+  "dbOptions": {
+    "database": "face_dev",
+    "username": "face_dev",
+    "password": "123456G",
+    "dialect": "mysql",
+    "host": "127.0.0.1",
+    "port": 3306,
+    "logging": true,
+    "define": {
+      "timestamps": false,
+      "charset": "utf8mb4"
+    }
+  },
+  "options": {
+    "type": "js",
+    "camelCase": true,
+    "dir": "./app/biz/dao/mysql/models"
+  }
+}
+

@@ -1,0 +1,30 @@
+{
+  "name": "face-fusion-express",
+  "version": "1.0.0",
+  "description": "人脸变化(起初取名人脸融合所以项目名字)",
+  "main": "app/app.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "debug": "^4.2.0",
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "file-stream-rotator": "^0.5.7",
+    "glob": "^7.1.6",
+    "morgan": "~1.9.1",
+    "mysql2": "^2.2.5",
+    "ioredis": "^4.17.3",
+    "sequelize": "^6.3.5",
+    "tencentcloud-sdk-nodejs": "^3.0.265"
+  },
+  "devDependencies": {
+    "http-errors": "^1.8.0"
+  },
+  "scripts": {
+    "start": "node ./app/app.js",
+    "sequelize-automate": "sequelize-automate -c sequelize-automate.config.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yichengxian",
+  "license": "ISC"
+}
